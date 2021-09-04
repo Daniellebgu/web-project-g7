@@ -828,3 +828,79 @@ select{
   }
 }
 
+/*-- cart items ------------------------------------------------------------------Danielle--------------------------------------------------*/
+.cart-page {
+    margin: 80px auto;
+}
+
+table {
+    width: 100%;
+}
+
+.cart-info {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+th {
+    text-align: left;
+    padding: 5px;
+    color: white;
+    background: palevioletred;
+}
+
+td {
+    padding: 10px 5px;
+}
+
+    td input {
+        width: 40px;
+        height: 30px;
+        padding: 5px;
+    }
+
+    td a {
+        color: palevioletred;
+        font-size: 12px;
+    }
+
+    td img {
+        width: 80px;
+        height: 80px;
+        margin-right: 10px;
+    }
+
+.total-price {
+    display: flex;
+    justify-content: flex-end;
+}
+
+    .total-price table {
+        border-top: 3px solid palevioletred;
+        width: 100%;
+        max-width: 600px;
+    }
+
+td:last-child {
+    text-align: right;
+}
+
+th:last-child {
+    text-align: right;
+}
+
+.cart-info p {
+    display: none;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+}
+
+.payment btn {
+    width: 80px;
+    height: 80px;
+    margin-right: 10px;
+}
